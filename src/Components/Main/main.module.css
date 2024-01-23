@@ -1,67 +1,103 @@
-.wrapper{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow-x: hidden;
-}
-.header{
-    height: 80px;
-    width: 85%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logoBlock{
-    
-}
-.logoBlock img{
-    height: 60px;
+:root {
+  --color-primary-green: #195d08;
+  --color-primary-white: #ffffff;
 }
 
-.navBlock nav{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    
-}
-.navBlock nav span{
-    font-weight: 500;
-    text-shadow: 0 1px 2px rgb(160, 160, 160);
+h1 {
+  margin: 0;
 }
 
-.contactButton{
-    font-weight: 500;
-    background-color: #338F1C;
-    width: 120px;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    color: white;
-    box-shadow: 0 1px 2px rgb(160, 160, 160);
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  background-color: #338f1c;
+  padding: 1rem 2.5rem;
+  border-radius: 55px;
+  border: none;
+  color: white;
+  box-shadow: 0 1px 2px rgb(160, 160, 160);
+  text-transform: uppercase;
 }
-.mainBlock{
-    width: 100%;
-    height: 100vh;
-    background-image: url(../../assets/images/image2.png);
+
+/* .uppercase {
+  text-transform: uppercase;
+} */
+
+/*  */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.infoBlock{
-    margin-left: 55%;
-    margin-top: 200px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 50px;
-    width: 40%;
-    color: white;
+
+.header {
+  width: -webkit-fill-available;
+  position: relative;
+  padding: 0.5rem 4rem 0.5rem 4rem;
+  background-color: white;
 }
-.infoBlock button{
-    width: 200px;
-    height: 70px;
-    font-size: 40px;
-    border: none;
-    background-color: white;
-    border-radius: 40px;
-    color: #338F1C;
+
+.headerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerMenu {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+  font-weight: 500;
+  align-items: center;
+}
+
+.headerLink {
+  color: var(--color-primary-green);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-image: linear-gradient(
+      277deg,
+      rgba(0, 0, 0, 0.56) 11.15%,
+      rgba(0, 0, 0, 0) 50.68%
+    ),
+    url(../../assets/images/image2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  /* padding: 400px 0; */
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  font-family: Jeju Hallasan;
+
+  /* max-width: 1200px;
+  margin: 0; */
+}
+
+.heroSectionTitle {
+  font-size: 60px;
+  color: var(--color-primary-white);
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 635px;
+  font-family: Jeju Hallasan;
+}
+
+.heroSectionButton {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-green);
+  font-family: Jeju Hallasan;
+  font-size: 35px;
 }
