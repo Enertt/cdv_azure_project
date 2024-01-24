@@ -1,0 +1,23 @@
+.welcomeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.welcomeContainer h2 {
+  margin-left: -4rem;
+  font-size: 44px;
+  color: var(--color-primary-green);
+  text-align: left;
+  text-transform: uppercase;
+  font-family: Jeju Hallasan;
+}
+
+.welcomeContainer img {
+  height: 533px;
+}
+
+p {
+  margin-top: 1rem;
+}

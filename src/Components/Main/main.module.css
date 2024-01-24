@@ -17,6 +17,7 @@ button {
   color: white;
   box-shadow: 0 1px 2px rgb(160, 160, 160);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /* .uppercase {
@@ -24,10 +25,24 @@ button {
 } */
 
 /*  */
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 50px 0 0 0;
+}
+
+.welcomeSection {
+  background-image: linear-gradient(
+    359deg,
+    #fff 7.89%,
+    #e3f2c7 40.31%,
+    #e7f4dc 66.71%,
+    #fff 99.2%
+  );
 }
 
 .header {
@@ -45,10 +60,9 @@ button {
 
 .headerMenu {
   text-decoration: none;
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   gap: 4rem;
-  font-weight: 500;
   align-items: center;
 }
 
@@ -58,46 +72,6 @@ button {
   font-weight: 600;
 }
 
-.heroSection {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  background-image: linear-gradient(
-      277deg,
-      rgba(0, 0, 0, 0.56) 11.15%,
-      rgba(0, 0, 0, 0) 50.68%
-    ),
-    url(../../assets/images/image2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  height: 100vh;
-  /* padding: 400px 0; */
-}
-
-.heroContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 1rem;
-  font-family: Jeju Hallasan;
-
-  /* max-width: 1200px;
-  margin: 0; */
-}
-
-.heroSectionTitle {
-  font-size: 60px;
-  color: var(--color-primary-white);
-  text-align: left;
-  text-transform: uppercase;
-  max-width: 635px;
-  font-family: Jeju Hallasan;
-}
-
-.heroSectionButton {
-  background-color: var(--color-primary-white);
-  color: var(--color-primary-green);
-  font-family: Jeju Hallasan;
-  font-size: 35px;
+.zooTerenImg {
+  border-radius: 20%;
 }

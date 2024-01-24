@@ -1,0 +1,46 @@
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-image: linear-gradient(
+      277deg,
+      rgba(0, 0, 0, 0.56) 11.15%,
+      rgba(0, 0, 0, 0) 50.68%
+    ),
+    url(../assets/images/headerBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  /* padding: 400px 0; */
+}
+
+/* .container {
+  max-width: 1200px;
+} */
+
+.heroContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  font-family: Jeju Hallasan;
+  /* max-width: 1200px;
+  margin: 0; */
+}
+
+.heroSectionTitle {
+  font-size: 60px;
+  color: var(--color-primary-white);
+  text-align: left;
+  text-transform: uppercase;
+  max-width: 635px;
+  font-family: Jeju Hallasan;
+}
+
+.heroSectionButton {
+  background-color: var(--color-primary-white);
+  color: var(--color-primary-green);
+  font-family: Jeju Hallasan;
+  font-size: 35px;
+}

@@ -1,0 +1,25 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials h3 {
+  font-family: Jeju Hallasan;
+  color: black;
+  text-align: center;
+}
+
+.iconsContainer {
+  display: flex;
+  gap: 3rem;
+}
