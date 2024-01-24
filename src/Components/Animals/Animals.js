@@ -1,15 +1,18 @@
-import s from "./main.module.css";
+import React from 'react'
+import s from "./animals.module.css"
 import { zooVector } from "../../assets/images";
-import { Hero, MoreInfo, Welcome, Footer } from "../../sections";
-import { NavLink } from "react-router-dom";
+import HeroAnimals from '../../sections/HeroAnimals';
+import { NavLink } from 'react-router-dom';
+import AnimalGallery from '../../sections/AnimalGallery';
+import { MoreInfo, Welcome, Footer } from "../../sections";
 
-const Nav = () => {
+const Animals = () => {
   return (
     <>
       <section>
         <header className={s.header}>
           <div className={s.container}>
-            <nav className={s.headerNav}>
+          <nav className={s.headerNav}>
               <NavLink to='/'>
                 <img src={zooVector}></img>
               </NavLink>
@@ -32,18 +35,12 @@ const Nav = () => {
 
       {/* Hero Section */}
 
-      <Hero />
+      <HeroAnimals />
 
       {/* More Info Section */}
       <section className={s.section}>
         <div className={s.container}>
-          <MoreInfo />
-        </div>
-      </section>
-
-      <section className={(s.section, s.welcomeSection)}>
-        <div className={s.container}>
-          <Welcome />
+          <AnimalGallery />
         </div>
       </section>
 
@@ -53,7 +50,7 @@ const Nav = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Animals

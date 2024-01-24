@@ -1,0 +1,78 @@
+:root {
+    --color-primary-green: #195d08;
+    --color-primary-white: #ffffff;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  button {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    background-color: #338f1c;
+    padding: 1rem 2.5rem;
+    border-radius: 55px;
+    border: none;
+    color: white;
+    box-shadow: 0 1px 2px rgb(160, 160, 160);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* .uppercase {
+    text-transform: uppercase;
+  } */
+  
+  /*  */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  .section {
+    padding: 50px 0 0 0;
+  }
+  
+  .welcomeSection {
+    background-image: linear-gradient(
+      359deg,
+      #fff 7.89%,
+      #e3f2c7 40.31%,
+      #e7f4dc 66.71%,
+      #fff 99.2%
+    );
+  }
+  
+  .header {
+    width: -webkit-fill-available;
+    position: relative;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    background-color: white;
+  }
+  
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerMenu {
+    text-decoration: none;
+    /* list-style: none; */
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .headerLink {
+    color: var(--color-primary-green);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .zooTerenImg {
+    border-radius: 20%;
+  }
+  

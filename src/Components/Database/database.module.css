@@ -1,0 +1,202 @@
+:root {
+    --color-primary-green: #195d08;
+    --color-primary-white: #ffffff;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  button {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    background-color: #338f1c;
+    padding: 1rem 2.5rem;
+    border-radius: 55px;
+    border: none;
+    color: white;
+    box-shadow: 0 1px 2px rgb(160, 160, 160);
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  /* .uppercase {
+    text-transform: uppercase;
+  } */
+  
+  /*  */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  .section {
+    padding: 50px 0 0 0;
+  }
+  
+  .welcomeSection {
+    background-image: linear-gradient(
+      359deg,
+      #fff 7.89%,
+      #e3f2c7 40.31%,
+      #e7f4dc 66.71%,
+      #fff 99.2%
+    );
+  }
+  
+  .header {
+    width: -webkit-fill-available;
+    position: relative;
+    padding: 0.5rem 4rem 0.5rem 4rem;
+    background-color: white;
+  }
+  
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerMenu {
+    text-decoration: none;
+    /* list-style: none; */
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .headerLink {
+    color: var(--color-primary-green);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .zooTerenImg {
+    border-radius: 20%;
+  }
+  .title{
+    margin-left: 7%;
+  }
+  .tableWrapper{
+    border: black solid 2px;
+    width: 86%;
+    margin-left: 7%;
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tableTitle{
+    width: 100%;
+    height: 70px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    
+  }
+  .tableColumnPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+  }
+  .tableColumnName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableColumnAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableColumnMod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableColumnDel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+
+  
+  .tableContentWrapper{
+    width: 100%;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tableContent{
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border-top: black solid 1px;
+  }
+
+  .tableContentPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100%;
+  }
+  .tableContentPhoto img{
+    width: 50%;
+    height: 75%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  .tableContentName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableContentAdd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableContentMod{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
+  .tableContentDel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    border-left: black solid 1px;
+  }
