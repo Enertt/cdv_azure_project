@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cdv_azure_project/static/css/main.92ea0687.css",
-    "main.js": "/cdv_azure_project/static/js/main.15196959.js",
+    "main.js": "/cdv_azure_project/static/js/main.cde5eb4b.js",
     "static/js/787.ec704a7a.chunk.js": "/cdv_azure_project/static/js/787.ec704a7a.chunk.js",
     "static/media/JejuHallasan-Regular.ttf": "/cdv_azure_project/static/media/JejuHallasan-Regular.a8978ba4715142988e29.ttf",
     "static/media/lion.png": "/cdv_azure_project/static/media/lion.83c52bd7e34f49865236.png",
@@ -20,11 +20,11 @@
     "static/media/icons.svg": "/cdv_azure_project/static/media/icons.e6a78b4fd9859d7c8be573e1f6fc21d7.svg",
     "index.html": "/cdv_azure_project/index.html",
     "main.92ea0687.css.map": "/cdv_azure_project/static/css/main.92ea0687.css.map",
-    "main.15196959.js.map": "/cdv_azure_project/static/js/main.15196959.js.map",
+    "main.cde5eb4b.js.map": "/cdv_azure_project/static/js/main.cde5eb4b.js.map",
     "787.ec704a7a.chunk.js.map": "/cdv_azure_project/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92ea0687.css",
-    "static/js/main.15196959.js"
+    "static/js/main.cde5eb4b.js"
   ]
 }
