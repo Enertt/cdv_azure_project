@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/cdv_azure_project/static/css/main.92ea0687.css",
+    "main.js": "/cdv_azure_project/static/js/main.cde5eb4b.js",
+    "static/js/787.ec704a7a.chunk.js": "/cdv_azure_project/static/js/787.ec704a7a.chunk.js",
+    "static/media/JejuHallasan-Regular.ttf": "/cdv_azure_project/static/media/JejuHallasan-Regular.a8978ba4715142988e29.ttf",
+    "static/media/lion.png": "/cdv_azure_project/static/media/lion.83c52bd7e34f49865236.png",
+    "static/media/headerBackground.png": "/cdv_azure_project/static/media/headerBackground.a3adc729430899d21f69.png",
+    "static/media/terenPng.png": "/cdv_azure_project/static/media/terenPng.c5bca448b9d86fac9878.png",
+    "static/media/enotPng.png": "/cdv_azure_project/static/media/enotPng.0163fc2902c94db2cacb.png",
+    "static/media/enot.jpg": "/cdv_azure_project/static/media/enot.136c07370f1195bb02da.jpg",
+    "static/media/visit zoo.png": "/cdv_azure_project/static/media/visit zoo.ad777cf11dbf93c1e9b1.png",
+    "static/media/lion calm.png": "/cdv_azure_project/static/media/lion calm.28545c2ce8117eeef34f.png",
+    "static/media/feeds.png": "/cdv_azure_project/static/media/feeds.16f4294701f284716c23.png",
+    "static/media/parking.png": "/cdv_azure_project/static/media/parking.95e42ac8f707fc9ac249.png",
+    "static/media/cat.png": "/cdv_azure_project/static/media/cat.c4a561acaa411fc4c571.png",
+    "static/media/ticket.png": "/cdv_azure_project/static/media/ticket.18c509c544928a23ad19.png",
+    "static/media/contact.png": "/cdv_azure_project/static/media/contact.db7304a7de120449bcb6.png",
+    "static/media/zooFriends.jpg": "/cdv_azure_project/static/media/zooFriends.ad80cb6f1dfdf4b0e3cb.jpg",
+    "static/media/icons.svg": "/cdv_azure_project/static/media/icons.e6a78b4fd9859d7c8be573e1f6fc21d7.svg",
+    "index.html": "/cdv_azure_project/index.html",
+    "main.92ea0687.css.map": "/cdv_azure_project/static/css/main.92ea0687.css.map",
+    "main.cde5eb4b.js.map": "/cdv_azure_project/static/js/main.cde5eb4b.js.map",
+    "787.ec704a7a.chunk.js.map": "/cdv_azure_project/static/js/787.ec704a7a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ea0687.css",
+    "static/js/main.cde5eb4b.js"
+  ]
+}
